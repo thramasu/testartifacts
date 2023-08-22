@@ -7,7 +7,7 @@ env:
 
 jobs:
   main:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: CheckOut Code
         uses: actions/checkout@v2
